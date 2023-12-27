@@ -1,0 +1,124 @@
+body {
+    background: rgb(48,111,212);
+    background: linear-gradient(90deg, rgba(48,111,212,1) 72%, rgba(74,205,232,1) 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.frame {
+    background-color: aliceblue;
+    margin: 20px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 2px 4px silver;
+}
+header {
+    width: 100%;
+    background-color: rgb(225, 235, 244);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid silver;
+}
+header ul {
+    padding: 0;
+    margin: 20px;
+    list-style: none;
+    display: flex;
+
+}
+header ul a {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: silver;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.welcome {
+    text-align: center;
+    padding: 40px 10px;
+}
+.welcome h1 {
+    font-weight: normal;
+    color: rgb(121, 121, 121);
+}
+.welcome h1 span {
+    color:rgb(51, 164, 213);
+}
+.welcome p {
+    color:rgb(121, 121, 121);
+}
+
+section {
+    display: flex;
+    width: calc(100%-100px);
+    margin: 0 50px 50px;
+    gap: 50px;
+}
+section .number span {
+    border: 1px solid darkgray;
+    border-radius: 50%;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: darkgray;
+
+}
+section .content h1 {
+    margin: 10px 0;
+    text-transform: uppercase;
+    color:rgb(121, 121, 121);
+}
+section .content {
+    width: 100%;
+}
+section .form .form-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid silver;
+    border-radius: 50px;
+
+}
+section .form .form-item span {
+    width: 300px;
+    padding: 20px;
+    color:rgb(121, 121, 121) ;
+
+}
+section .form .form-item .checkbox {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    color: rgb(121, 121, 121);
+
+}
+section .form .form-item .checkbox label {
+    display: flex;
+}
+section .form .form-item input {
+    width: 100%;
+    border: none;
+    padding: 20px;
+    border-radius: 30px;
+}
+.submit {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.submit button {
+    border: none;
+    background-color: rgb(161, 228, 62);
+    padding: 20px 40px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 40px;
+}
+
+
+
